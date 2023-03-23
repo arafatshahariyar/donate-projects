@@ -33,6 +33,7 @@
     margin-bottom: 20px;
     color: burlywood;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 .header-dec{
     width: 50%;
@@ -50,6 +51,8 @@
 }
 .title{
     margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 .donate-dec{
     width: 40%;
@@ -170,3 +173,44 @@
     margin-left: 20px;
 }
 /* donate plan section ends */
+
+/* update section */
+.update-container{
+    text-align: center;
+    margin-top: 90px;
+}
+.update-title{
+    font-weight: bold;
+    font-family: 'Handlee', cursive;
+}
+.update-dec{
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    color: gray;
+}
+.update-button{
+    display: flex; 
+    background-color: blanchedalmond;
+    width: 50%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.update-btn{
+    width: 90px;
+    height: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+.email-btn{
+    width: 200px;
+    background-color: gray;
+    color: white;
+    border-left: 1px;
+}
+/* update sectuon ends */
