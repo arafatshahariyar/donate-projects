@@ -81,7 +81,7 @@
     font-size: 12px;
 }
 .donate-hr{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -89,3 +89,44 @@
    background-color: orangered;   
 }
 /* donate section ends */
+
+.donate-plan-container{
+    text-align: center;
+    margin-top: 70px;
+}
+.donate-plan-dec{
+    width: 40%;
+    margin: auto;
+    color: gray;
+    margin-bottom: 30px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-container{
+    width: 250px;
+    background-color: gray;
+    border-radius: 5px;
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+.card-img{
+    padding: 20px;
+}
+.card-title{
+    padding: 10px;
+    margin-left: 10px;
+}
+.card-dec{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.second-card-container{
+    background-color: lightpink;
+}
+.third-card-container{
+    background-color: burlywood;
+}
