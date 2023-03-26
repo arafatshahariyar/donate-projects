@@ -9,6 +9,7 @@
     border-radius: 5px;
     background-color: brown;
     color: white;
+    cursor: pointer;
 }
 /* header section starts */
 .header{
@@ -89,8 +90,9 @@
     margin-bottom: 20px;
 }
 .donate-button{
-   background-color: orangered;   
+   background-color: orangered; 
 }
+
 /* donate section ends */
 /* donate plan section starts */
 .donate-plan-container{
@@ -233,4 +235,30 @@
 }
 .footer-dec{
     color: gray;
+}
+
+@media  screen and (max-width:576px) {
+    .btn{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:576px){
+    .card{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:576px){
+    .donate-help{
+        flex-direction: column;
+    }
+    .donate-helped{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:576px){
+    .update-button{
+        width: 75%;
+    
+    }
+
 }
