@@ -244,8 +244,13 @@
 }
 @media screen and (max-width:576px){
     .card{
-        flex-direction: column;
+        flex-direction: column;  
     }
+    
+    .donate-img{
+        margin-top: 30px;
+    }
+    
 }
 @media screen and (max-width:576px){
     .donate-help{
